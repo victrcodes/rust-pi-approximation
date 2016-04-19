@@ -1,0 +1,19 @@
+[package]
+name = "rust-stream"
+version = "0.1.0"
+authors = ["Vic"]
+
+[dependencies]
+time = "*"
+
+[[bin]]
+name = "single-thread"
+path = "src/bin/single_thread.rs"
+
+[[bin]]
+name = "two-threads"
+path = "src/bin/two_threads.rs"
+
+[[bin]]
+name = "max-threads"
+path = "src/bin/max_threads.rs"
